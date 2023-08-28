@@ -7,5 +7,7 @@ jobs:
     steps:
     - name: echo message
       run: echo "Hello, ${{ vars.MY_NAME }}"
+    - name: Surname
+      run: echo "Surname - ${{ secrets_MY_SURNAME }}"
       
       
